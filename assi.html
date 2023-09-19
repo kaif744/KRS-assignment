@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <div class="firstpart">
+    <nav>
+      <img class="logo" src="./assets/Group 20.png" />
+      <ul>
+        <li><a href="" class="#">Home</a></li>
+        <li>
+          <a href="" class="#">Menu </a>
+
+          <ul class="dropdown">
+            <li><a href="">Chicken Biryani</a></li>
+            <li><a href="">Veg Biryani</a></li>
+            <li><a href="">Veg Biryani</a></li>
+          </ul>
+        </li>
+        <li><a href="" class="#">Services</a></li>
+        <li><a href="" class="#">Offers</a></li>
+      </ul>
+
+      <div class="right">
+        <img src="./assets/🦆 icon _search_.png" class="search_icon" />
+        <!-- i dont know why but my align-self is not working for both -->
+        <img src="./assets/Group 21.png" class="basket" />
+        <button class="search">
+          <div class="searchbutton">
+            <!-- i am not able to create a space between them with flex-box so im giving class to  them and then adding margin to position them correctly -->
+            <div class="phone_img">
+              <img src="./assets/fi-rr-phone-call.png" class="phone" />
+            </div>
+            <div class="contact_text">Contact</div>
+          </div>
+        </button>
+      </div>
+    </nav>
+
+    <div class="first_part">
+      <div class="first_left">
+        <p class="quote">
+          Dive into Delights <br />
+          Of Delectable <span class="food">Food</span>
+        </p>
+        <br /><br /><br />
+        <p>
+          Where each plate Weaves a Story of Culinary <br />
+          Mastery and Passionate Craftsmanship
+        </p>
+        <br /><br /><br />
+        <div class="first_right_button">
+          <div>
+            <button class="order">Order Now</button>
+          </div>
+          <div class="watch">
+            <span class="watch_video"> Watch Video </span>
+            <!-- how to center the play icon inside the button -->
+            <button class="play_button">
+
+              <a href="https://www.youtube.com/watch?v=JPG8C9iVVtI"><img src="./assets/playbt.png" id="play" /></a>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="first_right">
+        <!-- <img src="./assets/Group 23.png" id="girl_maggie" /> -->
+        <div class="first_right_twodish">
+          <div>
+            <img src="./assets/Mask group (1).png" id="egg_salad" />
+            <span class="egg">Vegetarian Salad</span>
+            <img src="./assets/3star.png" class="review" />
+            <span id="price"><span class="dollar">$</span>15.00</span>
+          </div>
+          <div>
+            <img src="./assets/Mask group.png" id="egg_salad" />
+            <span class="egg">Spicy Noodles</span>
+            <img src="./assets/4star.png" class="review" />
+            <span id="price"><span class="dollar">$</span>25.00</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- second part -->
+    <div class="second" style="height:100%; margin-top: 100px;">
+      <p style="text-align: center; font-size: small; color: red; font-weight:normal;">CUSTOMER FAVOURITES </p>
+      <br>
+      <h1 style="text-align: center;">Popular Categories</h1>
+      <div class="second_main">
+        <div>
+          <div class="second_item"><img src="./assets/pngwing 4.png" class="maindish"></div>
+          <span style="margin: 62px; position: relative; top: 7px;">Main Dish</span>
+          <span style="position: relative; top: 12px; left: 57px;">(30 Dishes)</span>
+        </div>
+        <div>
+          <div class="second_item"><img src="./assets/pngwing 6.png" class="breakfast"></div>
+          <span style="margin: 62px; position: relative; top: 7px;">Breakfast</span>
+          <span style="position: relative; top: 12px; left: 57px;">(12 Breakast)</span>
+        </div>
+        <div>
+          <div class="second_item"><img src="./assets/pngwing 3.png" class="desert"></div>
+          <span style="margin: 78px; position: relative; top: 7px;">Desert</span><br>
+          <span style="margin-left: 67px; position: relative; top: 12px;">(9 Deserts)</span>
+        </div>
+        <div>
+          <div class="second_item"><img src="./assets/pngwing 7.png" class="browse"></div>
+          <span style="margin: 62px; position: relative; top: 7px;">Browse All</span>
+          <span style="position: relative; top: 12px; left: 64px;">(51 Items)</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="third">
+<p>Special Dishes</p>
+<br><br>
+<div class="special_dishes">
+  <!-- can be done with span -->
+  <div><h1>Standout Dishes <br> From Our Menu</h1></div>
+  <div class="dishes_button"> <button><i class="fa-solid fa-chevron-left"></i></button> <button><i class="fa-solid fa-chevron-right"></i></button></div>
+</div>
+
+<div class="menud">
+  <div><img src="./assets/Egg salad.png" class="eggasalad">
+    <br><br>
+  <p class="eggsalad">Egg Vegi Salad</p>
+<br>
+<h5>Description</h5>
+<br>
+<span>
+<span style="position: relative; left: 32px; font-weight: 600; font-size: 20px; "><span class="dollar" style="font-size: medium;">$</span>25.00</span>
+<span style="float: right;position: relative; right: 30px; font-weight: 600;  "><img src="./assets/fi-sr-star.png" style="height: 15px; padding-right: 7px;">4.9</span>
+</span>
+
+</div>
+  <div>
+    <img src="./assets//Vegetable salad.png" class="eggasalad">
+    <br><br>
+  <p class="eggsalad">Vegetable Salad</p>
+<br>
+<h5>Description</h5>
+<br>
+<span>
+<span style="position: relative; left: 32px; font-weight: 600; font-size: 20px; "><span class="dollar" style="font-size: medium;">$</span>25.00</span>
+<span style="float: right;position: relative; right: 30px; font-weight: 600;  "><img src="./assets/fi-sr-star.png" style="height: 15px; padding-right: 7px;">4.9</span>
+</span>
+  </div>
+  <div id="menud_3rdiv">
+    <img src="./assets/Fattoush salad.png" class="eggasalad">
+    <br><br>
+  <p class="eggsalad">Fattoush salad</p>
+<br>
+<h5>Description</h5>
+<br>
+<span>
+<span style="position: relative; left: 32px; font-weight: 600; font-size: 20px; "><span class="dollar" style="font-size: medium;">$</span>25.00</span>
+<span style="float: right;position: relative; right: 30px; font-weight: 600;  "><img src="./assets/fi-sr-star.png" style="height: 15px; padding-right: 7px;">4.9</span>
+</span>
+  </div>
+</div>
+
+    </div>
+<br><br><br> <br>
+    <div class="fourth">
+      <div class="fourth_photo" > <img src="./assets/chef.png" alt=""></div>
+      <div class="fourth_text">
+        <br><br><br><br>
+        <span>T e s t i m o n i a l s</span>
+        <br><br>
+        <p>What Our Customers Say <br>About Us</p>
+        <br><br>
+        <p id="quot">
+          "I had the pleasuring of dining at Foodi last night, and <br> I'm still raving about the experience,The attention to <br> detail in presentation and service was  impeccable "
+        </p>
+        <br>
+        <div ><div class="img"><img src="./assets/Mask group (2).png" >   <img src="./assets/Mask group (4).png" id="rightjack"> <img src="./assets/Mask group (3).png" id="midema"></div><div id="revieww"> <div style="height: 30px;"><p>Customer Review</p></div> <div><span style="padding-left: 0px; margin-left: -3px;"><img src="./assets/fi-sr-star.png" id="revstar"></span><span>4.9</span><span style="color:grey;">(18.7k Reviews)</span></div> </div></div>
+        
+      </div>
+    </div>
+
+    <div class="fifth">
+      <div class="fifth_left" >
+        <br><br><br>
+        <span>Our Story & Services</span>
+        <br><br>
+        <p>Our Culinary Journey <br> & Services
+        </p>
+        <br><br>
+        <p id="quot">
+          Rooted in passion , we curate unforgettable dining <br>experiences and offer exceptional services <br>blending culinary artistry with warm hospitality.
+        </p>
+        <br><br>
+        <button>Explore</button>
+      </div>
+      <div class="fifth_right">
+        <div class="fifth_right_child">
+        <div><img src="./assets/fi-rr-salad.png" alt=""><br>
+          <h4>CATERING</h4><br>
+          <p>Delight your guests <br> with our flavours and <br> presentation</p>
+        </div>
+        <div>
+          <img src="./assets/fi-rr-time-fast.png" alt=""><br>
+          <h4>FAST DELIVERY</h4><br>
+          <p>We deliver your order <br> prompty to your door</p>
+        </div>
+      </div>
+      <div class="fifth_right_child">
+        <div>
+          <img src="./assets/fi-rr-shopping-cart-check.png" alt=""><br>
+          <h4>ONLINE ORDERING</h4><br>
+          <p>
+            Explore menu & order <br>with ease using our <br>Online Ordering
+          </p>
+        </div>
+        <div>
+          <img src="./assets/fi-rr-gift.png" alt=""><br>
+          <h4>GIFT CARDS</h4><br>
+          <p>Give the gift of <br>exceptional dining with <br>Foodi gift cards</p>
+        </div>
+      </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="footer_col">
+            <img src="./assets/Group 20.png" alt="">
+            <br><br>
+            <p>Savour the artistry where <br>every dish is a culinary <br> masterpiece </p>
+          </div>
+          <div class="footer_col">
+            <h4>Useful links</h4>
+            <ul>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Events</a></li>
+              <li><a href="#">Blogs</a></li>
+              <li><a href="#">FAQ</a></li>
+            </ul>
+          </div>
+          <div class="footer_col">
+            <h4>Main Menu</h4>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Offers</a></li>
+              <li><a href="#">Menus</a></li>
+              <li><a href="#">Reservation</a></li>
+            </ul>
+          </div>
+          <div class="footer_col">
+            <h4>Contact Us</h4>
+            <ul>
+              <li><a href="#">22051261@gmail.com</a></li>
+              <li><a href="#">+91 905******</a></li>
+              <li><a href="#">Social Media</a></li>
+              
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+<div class="lastbar">
+  <div class="icons">
+    <div><img src="./assets/🦆 icon _facebook_.png" alt="facebook"></div>
+    <div><img src="./assets/🦆 icon _instagram_.png" alt="instagram"></div>
+    <div><img src="./assets/🦆 icon _twitter_.png" alt="twitter"></div>
+    <div><img src="./assets/🦆 icon _youtube_.png" alt="youtube"></div>
+  </div>
+  <div><p>Copyright &copy; 2023 Kcode | All rights reserved</p></div>
+</div>
+
+</body>
+
+</html> 
